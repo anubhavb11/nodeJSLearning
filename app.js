@@ -18,7 +18,7 @@ app.use(express.json());
 
 // Building own middleware
 app.use((req, res, next) => {
-    console.log("Hello Middleware");
+    console.log("Hello Middleware new git ");
     next();
 })
 app.use((req, res, next) => {
